@@ -1,6 +1,6 @@
 body {
 	font-family: 'Arimo', sans-serif;
-	background: url(http://kurld.com/images/wallpapers/hd-space-wallpaper/hd-space-wallpaper-22.jpg) no-repeat; 
+	background: url(..Images/galaxy.jpg) no-repeat; 
 }
 
 #Header {
@@ -16,7 +16,13 @@ body {
 	font-weight: bold;
 }
 
+#MainContent {
+	text-align: center;
+	margin: auto;
+}
 
+div button {
+}
 
 
 
