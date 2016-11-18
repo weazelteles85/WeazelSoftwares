@@ -1,27 +1,88 @@
 body {
 	font-family: 'Arimo', sans-serif;
-	background: url(..Images/galaxy.jpg) no-repeat; 
+	background: url(https://github.com/weazelteles85/WeazelSoftwares/blob/master/Images/galaxy.jpg?raw=true) no-repeat;
 }
 
-#Header {
+.Header {
 	text-align: center;
-	font-size: 3.5vw;
-	margin-top: -30px;
 	letter-spacing: 2px;
 }
 
-#Header a {
+.Header h1 {
+	font-family: 'Arimo', sans-serif;
+	font-size: 4em;
+}
+
+.Header a {
 	color:#bad4ff;
 	text-decoration: none;
 	font-weight: bold;
 }
 
-#MainContent {
+.Header ul {
+	color:#bad4ff;
+}
+
+.MainContent {
 	text-align: center;
 	margin: auto;
 }
 
-div button {
+button:hover {
+	cursor: pointer;
+}
+
+#LogScreen {
+	visibility: hidden;
+}
+
+#LogScreen p {
+	font-family: "Arial Black";
+	font-weight: bolder;
+	color: red; 
+	margin-top: -5px;
+	margin-bottom: 0px;
+	text-align: right;
+	font-size: 2em;
+	float: right;
+}
+
+#LogScreen p:hover {
+	cursor: pointer;
+}
+
+#LogScreen button {
+	margin: 10px;
+}
+
+#LogScreen input {
+	font-size: 1.5em;
+	width: 25%;
+}
+
+#LogScreen {
+	position: relative;
+	margin: auto;
+	margin-top: -200px;
+	border-style: solid;
+	border-width: 2px;
+	padding: 10px;
+	background-color: #999FFE;
+	width: 50%;
+}
+
+#logError {
+	text-align: center;
+	font-size: 24px;
+	color: red;
+	visibility: hidden;
+}
+
+button p {
+	font-weight: bold;
+	padding: 5px;
+	margin: auto;
+	font-size: 2em;
 }
 
 
