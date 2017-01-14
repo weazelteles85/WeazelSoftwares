@@ -21,6 +21,11 @@
 // 	}
 // });
 
+function checkKey(event) {
+	var key = event.keyCode;
+	if (key == 13) { attemptLogin(); }
+}
+
 function showLogScreen() {
 	document.getElementById("LogScreen").style.visibility = 'visible';
 }
@@ -42,3 +47,30 @@ function attemptLogin() {
 		document.getElementById("logError").style.visibility = 'visible';
 	}
 }
+
+//document.getElementById('counterClock').onload = function() {startCounterClock()};
+
+function startCounterClock() {
+		var divClock = document.getElementById('counterClock');
+		console.log(divClock);
+		var minutes = 5;
+		var seconds = 60;
+		var countDown = function() {
+			seconds--;
+			if (seconds < 0) { minutes--; }
+			if (seconds < 0) { seconds = 59 }
+			divClock.textContent = minutes + ":" + seconds;
+			if (seconds < 10) { divClock.textContent = minutes + ":0" + seconds; }
+			if (minutes == 0 && seconds == 0) {
+				divClock.style.color = "Red";
+				divClock.textContent = "You Blew Up!!!"
+				window.clearInterval(timer);
+			}
+		};
+
+		var timer = window.setInterval(countDown, 1000);
+	}
+
+	startCounterClock();
+
+

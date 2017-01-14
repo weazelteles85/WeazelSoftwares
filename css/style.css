@@ -6,11 +6,16 @@ body {
 .Header {
 	text-align: center;
 	letter-spacing: 2px;
+	background-color: #2f3847;
+	border-radius: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .Header h1 {
 	font-family: 'Arimo', sans-serif;
-	font-size: 4em;
+	font-size: 6em;
+	margin-bottom: 30px;
+	text-shadow: 2px 2px 4px black;
 }
 
 .Header a {
@@ -21,11 +26,16 @@ body {
 
 .Header ul {
 	color:#bad4ff;
+	list-style: none;
 }
 
 .MainContent {
 	text-align: center;
 	margin: auto;
+}
+
+button {
+	margin: 5px;
 }
 
 button:hover {
@@ -83,6 +93,20 @@ button p {
 	padding: 5px;
 	margin: auto;
 	font-size: 2em;
+}
+
+li a{
+	font-size: 28px;
+}
+
+#counterClock {
+	position: relative;
+	color: white;
+	font-size: 3em;
+	float: left;
+	top: -80px;
+	left: 20px;
+
 }
 
 
