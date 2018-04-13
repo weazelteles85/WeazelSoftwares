@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,32 +12,51 @@
 	<link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
 	<link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 	<header>
 		<nav>
 			<div class="container">
 				<div class="Header">
-					<a href="index.html"> <h1>Weazel Softwares</h1></a>
-				</div><!-- Class NavBar-Header -->
-			</div><!-- Header Div "Container" -->
-		</nav><!--header-navbar-->
-	</header><!-- Header -->
-	
+					<a href="index.html">
+						<h1>Weazel Softwares</h1>
+					</a>
+				</div>
+				<!-- Class NavBar-Header -->
+			</div>
+			<!-- Header Div "Container" -->
+		</nav>
+		<!--header-navbar-->
+	</header>
+	<!-- Header -->
+	<div class="Redirection">
+		<h1>Please note that this is a practice/test website from TelesApps, if you are looking for the HTML/CSS/JS Template
+			build from scratch please click on the link bellow</h1>
+		<a href="https://weazelteles85.github.io/MixedTechie/">
+			<h1>MixedTechie Template</h1>
+		</a>
+	</div>
+
 	<div class="MainContent">
 		<div id="EnterWebSite">
-		<div id="LockImage"><img src="http://downloadicons.net/sites/default/files/lock-icon-44638.png"></div>
+			<div id="LockImage">
+				<img src="http://downloadicons.net/sites/default/files/lock-icon-44638.png">
+			</div>
 			<button onclick="showLogScreen()">
 				<p>Enter Web Site</p>
 			</button>
 		</div>
 
 		<div id="LogScreen" onkeydown="checkKey(event)">
-		<span><p id="xClose" onclick="hideLogScreen()">X</p></span>
-		<div id="logError">
-			The password you entered is incorrect
-		</div>
+			<span>
+				<p id="xClose" onclick="hideLogScreen()">X</p>
+			</span>
+			<div id="logError">
+				The password you entered is incorrect
+			</div>
 			<div>
-				<h2>Please Enter the Password to Login <br>(the same as Nick's TeamSpeak)</h2>
+				<h2>Please Enter the Password to Login
+					<br>(the same as Nick's TeamSpeak)</h2>
 			</div>
 			<input type="password" id="passwordInput">
 			<div>
@@ -50,4 +70,5 @@
 
 	<script src="js/script.js"></script>
 </body>
+
 </html>

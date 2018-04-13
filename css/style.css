@@ -3,6 +3,14 @@ body {
 	background: url(https://github.com/weazelteles85/WeazelSoftwares/blob/master/Images/galaxy.jpg?raw=true) no-repeat;
 }
 
+.Redirection {
+	color: white;
+	background-color: black;
+	margin: auto;
+	width: 95%;
+	padding: 8px;
+}
+
 .Header {
 	text-align: center;
 	letter-spacing: 2px;
